@@ -1,0 +1,6 @@
+org/learning/shopping/controller/UserControllerTest.java
+ org.learning.shopping.controller.UserControllerTest
+org/learning/shopping/ShoppingApplicationTests.java
+ org.learning.shopping.ShoppingApplicationTests
+org/learning/shopping/repository/testUser.java
+ org.learning.shopping.repository.testUser

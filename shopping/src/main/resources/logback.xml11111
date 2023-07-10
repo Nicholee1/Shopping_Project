@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration>
+<configuration>
+    <!--<appender name="LOGSTASH" class="net.logstash.logback.appender.LogstashTcpSocketAppender">
+        &lt;!&ndash;指定logstash ip：监听端口&ndash;&gt;
+        <destination>localhost:9601</destination>
+        <encoder charset="UTF-8" class="net.logstash.logback.encoder.LogstashEncoder" />
+    </appender>
+    
+
+    <root>
+        <level value="INFO"/>
+        &lt;!&ndash;使用上述订阅logstash数据tcp传输 &ndash;&gt;
+        <appender-ref ref="LOGSTASH" />
+    </root>-->
+
+</configuration>

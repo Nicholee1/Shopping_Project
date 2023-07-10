@@ -1,0 +1,1 @@
+ALTER USER 'root'@'%' IDENTIFIED WITH mysql_native-pasword BY 'caocao4352';
