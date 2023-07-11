@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: caocao4352
+    url: jdbc:mysql://localhost:3306/oauth2
+  jpa:
+    database-platform: org.hibernate.dialect.MySQL8Dialect
+debug: false
+server:
+  port: 8606
