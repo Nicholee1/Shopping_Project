@@ -2,7 +2,7 @@ package org.learning.shopping.api;
 
 import io.swagger.annotations.Api;
 import org.learning.shopping.entity.User;
-import org.learning.shopping.security.JWT.JwtProvider;
+
 import org.learning.shopping.service.UserService;
 import org.learning.shopping.service.impl.UserServiceImpl;
 import org.learning.shopping.vo.request.LoginForm;
@@ -28,12 +28,10 @@ public class UserController {
 
     @Autowired
     UserService userService;
-    @Autowired
-    JwtProvider jwtProvider;
-    @Autowired
-    AuthenticationManager authenticationManager;
 
-    @PostMapping("/login")
+
+
+/*    @PostMapping("/login")
     public ResponseEntity<JwtResponse> login(@RequestBody LoginForm loginForm) {
         try {
             Authentication authentication = authenticationManager.authenticate(
@@ -48,7 +46,7 @@ public class UserController {
             System.out.println(e.getMessage());
             return ResponseEntity.status(HttpStatus.UNAUTHORIZED).build();
         }
-    }
+    }*/
 
     @PostMapping("/register")
     public ResponseEntity<User> save(@RequestBody User user) {
