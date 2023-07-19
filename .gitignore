@@ -1,4 +1,6 @@
 /shopping/.gradle/
 /shopping/build/
+/shopping/.idea/
 /oauth2/.gradle/
 /oauth2/build/
+/oauth2/.idea/
